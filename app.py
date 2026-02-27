@@ -29,22 +29,18 @@ if not os.path.exists("token.pkl"):
 st.title("📰 Fake News Detection")
 
 user_input = st.text_area("Enter News Text:")
-
-
-    # Dummy logic (for deployment)
-   if st.button("Predict"):
-    
+# Dummy logic (for deployment)
+if st.button("Predict"):
     text = user_input.lower()
-
     fake_keywords = [
         "guarantee", "100%", "cure", "miracle", "shocking",
         "breaking", "forward this", "share this", "urgent",
         "1 lakh", "free money", "click here", "secret",
         "government giving money", "everyone will get"
     ]
-
     if any(word in text for word in fake_keywords):
         st.error("🚨 Fake News Detected")
     else:
         st.success("✅ Real News")
+
 
