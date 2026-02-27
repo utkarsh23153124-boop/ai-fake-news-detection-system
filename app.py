@@ -30,7 +30,6 @@ st.title("📰 Fake News Detection")
 
 user_input = st.text_area("Enter News Text:")
 
-if st.button("Predict"):
 
     # Dummy logic (for deployment)
    if st.button("Predict"):
@@ -48,3 +47,4 @@ if st.button("Predict"):
         st.error("🚨 Fake News Detected")
     else:
         st.success("✅ Real News")
+
