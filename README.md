@@ -10,7 +10,7 @@ An AI-powered fake news detection system that classifies news articles as **Real
 - Uses NLP techniques for text preprocessing
 - Deep learning model using Bidirectional LSTM
 - High accuracy classification
-- Simple and easy-to-use interface (if UI added)
+- Simple and easy-to-use interface 
 
 ---
 
